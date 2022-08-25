@@ -63,13 +63,10 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: '描述',
-          },
+          {type: 'doc', docId: 'intro', position: 'left', label: '描述'},
           {to: '/blog', label: '博客', position: 'left'},
+          {to: '/laboratory', label: '实验室', position: 'left'},
+          {to: '/album', label: '相册', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',

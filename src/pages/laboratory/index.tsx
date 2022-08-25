@@ -14,7 +14,7 @@ export default function List() {
           fontSize: '20px',
         }}>
         <p>
-       列表222223333333333
+          laboratory
         </p>
       </div>
     </Layout>
