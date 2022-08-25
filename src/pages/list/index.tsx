@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Author from '@theme/BlogPostItem/Header/Author';
 
-export default function Hello() {
+export default function List() {
   return (
     <Layout title="Hello" description="Hello React Page">
       <div
@@ -14,7 +14,7 @@ export default function Hello() {
           fontSize: '20px',
         }}>
         <p>
-          修改 <code>pages/helloReact.js</code>，然后保存，页面会重载。
+       列表
         </p>
       </div>
     </Layout>
